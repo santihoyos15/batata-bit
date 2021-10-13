@@ -1,0 +1,72 @@
+:root{
+    --font-size1: 'DM Sans';
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: var(--font-size1);
+}
+
+/* Header */
+
+.header{
+    height: 29.5rem;
+    width: 100%;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bata-bit-header-logo-container{
+    position: relative;
+    top: 2rem;
+}
+
+.header-h1, .header-h2{
+    max-width: 27.1rem;
+    text-align: center;
+}
+
+.header-h1{
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+}
+
+.header-h2{
+    position: relative;
+    bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+}
+
+.header-button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 18.10em;
+    width: 25.0rem;
+    height: 4rem;
+    padding: 0.9rem;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    box-shadow: 0px 3px 9px 1px rgba(0,0,0,0.26);
+    background-color: white;
+}
+
+/* Main section */
