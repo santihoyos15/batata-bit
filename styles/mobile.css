@@ -1,7 +1,9 @@
 :root{
     --font-family1: 'DM Sans';
+    --font-family2: 'Inter';
     --font-size1: 1.4rem;
     --font-size2: 2.4rem;
+    --font-size3: 1.8rem;
 }
 
 *{
@@ -101,7 +103,44 @@ html{
     color: #757575;
 }
 
+.coins-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 19.6rem;
+    margin: 4rem auto;
+}
+
 .exchange-rates-h2{
-    font-size: var(--font-size1);
+    font-size: var(--font-size3);
     font-weight: 700;
+    color: #FF9536;
+    align-self: flex-start;
+    margin: 1rem 0;
+}
+
+div[class^="coin-"]{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.9rem;
+    width: 100%;
+    font-family: var(--font-family2);
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #B5B0AC;
+}
+
+.coin-name{
+    width: 10.1rem;
+}
+
+.coins-section-last-update{
+    font-family: var(--font-family2);
+    font-size: 1.2rem;
+    background-color: #FFE9D4;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin: 2rem 0;
 }
