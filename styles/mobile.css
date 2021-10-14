@@ -1,5 +1,7 @@
 :root{
-    --font-size1: 'DM Sans';
+    --font-family1: 'DM Sans';
+    --font-size1: 1.4rem;
+    --font-size2: 2.4rem;
 }
 
 *{
@@ -10,7 +12,8 @@
 
 html{
     font-size: 62.5%;
-    font-family: var(--font-size1);
+    font-family: var(--font-family1);
+    color: black;
 }
 
 /* Header */
@@ -37,7 +40,7 @@ html{
 }
 
 .header-h1{
-    font-size: 2.4rem;
+    font-size: var(--font-size2);
     font-weight: 700;
     line-height: 2.6rem;
 }
@@ -45,9 +48,10 @@ html{
 .header-h2{
     position: relative;
     bottom: 2rem;
-    font-size: 1.5rem;
+    font-size: var(--font-size1);
     font-weight: 300;
     line-height: 1.8rem;
+    color: #FFE9D4;
 }
 
 .header-button{
@@ -55,18 +59,49 @@ html{
     justify-content: space-evenly;
     align-items: center;
     position: absolute;
-    top: 18.10em;
+    top: 19.20em;
     width: 25.0rem;
-    height: 4rem;
-    padding: 0.9rem;
-    margin: 0 auto;
-    text-align: center;
+    height: 5rem;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: var(--font-size1);
     font-weight: 700;
     border-radius: 0.5rem;
     box-shadow: 0px 3px 9px 1px rgba(0,0,0,0.26);
     background-color: white;
+}.header-button:visited{
+    color: black;
 }
 
 /* Main section */
+
+.bitcoin-svg-container{
+    display: flex;
+    justify-content: center;
+    margin: 6rem 0 3rem 0;
+}
+
+.exchange-rates-h1{
+    width: 88%;
+    font-style: normal;
+    font-size: var(--font-size2);
+    font-weight: 7000;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 2.6rem;
+}
+
+.exchange-rates-paragraph{
+    width: 28.8rem;
+    margin: 0 auto;
+    padding: 2rem 0;
+    text-align: center;
+    font-size: var(--font-size1);
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+}
+
+.exchange-rates-h2{
+    font-size: var(--font-size1);
+    font-weight: 700;
+}
