@@ -1,4 +1,16 @@
 :root{
+    /* Colors */
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #ffe9d5;
+    --secondary-blue: #1a9af7;
+    --soft-blue: #e7f5ff;
+    --warm-black: #201e1c;
+    --black: #282623;
+    --grey: #757575;
+    --soft-grey: #bababa;
+    --off-white: #faf8f7;
+    --just-white: #fff;
+
     --font-family1: 'DM Sans';
     --font-family2: 'Inter';
     --font-size1: 1.4rem;
@@ -14,8 +26,9 @@
 
 html{
     font-size: 62.5%;
-    font-family: var(--font-family1);
-    color: black;
+    font-family: var(--font-family1), sans-serif;
+    color: var(--warm-black);
+    background-color: var(--off-white);
 }
 
 /* Header */
@@ -23,8 +36,8 @@ html{
 .header{
     height: 29.5rem;
     width: 100%;
-    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
-    color: white;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, var(--bitcoin-orange) 100%);
+    color: var(--main-color);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -45,6 +58,7 @@ html{
     font-size: var(--font-size2);
     font-weight: 700;
     line-height: 2.6rem;
+    color: var(--off-white)
 }
 
 .header-h2{
@@ -53,7 +67,7 @@ html{
     font-size: var(--font-size1);
     font-weight: 300;
     line-height: 1.8rem;
-    color: #FFE9D4;
+    color: var(--soft-orange);
 }
 
 .header-button{
@@ -69,14 +83,15 @@ html{
     font-weight: 700;
     border-radius: 0.5rem;
     box-shadow: 0px 3px 9px 1px rgba(0,0,0,0.26);
-    background-color: white;
-    color: black;
+    background-color: var(--off-white);
+    color: var(--warm-black);
 }.header-button:visited{
-    color: black;
+    color: var(--warm-black);
 }
 
 /* Main section */
 
+/* Section 1 */
 .bitcoin-svg-container{
     display: flex;
     justify-content: center;
@@ -101,7 +116,7 @@ html{
     font-size: var(--font-size1);
     font-weight: 500;
     line-height: 1.8rem;
-    color: #757575;
+    color: var(--grey);
 }
 
 .coins-section{
@@ -116,7 +131,7 @@ html{
 .exchange-rates-h2{
     font-size: var(--font-size3);
     font-weight: 700;
-    color: #FF9536;
+    color: var(--bitcoin-orange);
     align-self: flex-start;
     margin: 1rem 0;
 }
@@ -127,12 +142,17 @@ div[class^="coin-"]{
     align-items: center;
     height: 3.9rem;
     width: 100%;
+    padding: 0 1.2rem;
     font-family: var(--font-family2);
     font-weight: 500;
     font-size: 1.6rem;
-    color: #B5B0AC;
+    color: var(--soft-grey);
+    background-color: var(--just-white);
 }
 
+.coin-1, .coin-4{
+    border-radius: 0.5rem;
+}
 .coin-name{
     width: 10.1rem;
 }
@@ -140,8 +160,10 @@ div[class^="coin-"]{
 .coins-section-last-update{
     font-family: var(--font-family2);
     font-size: 1.2rem;
-    background-color: #FFE9D4;
+    background-color: var(--soft-orange);
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     margin: 2rem 0;
 }
+
+/* Section 2 */
