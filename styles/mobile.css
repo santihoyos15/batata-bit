@@ -5,7 +5,7 @@
     --secondary-blue: #1a9af7;
     --soft-blue: #e7f5ff;
     --warm-black: #201e1c;
-    --black: #282623;
+    --warm-black1: #282623;
     --grey: #757575;
     --soft-grey: #bababa;
     --off-white: #faf8f7;
@@ -167,3 +167,47 @@ div[class^="coin-"]{
 }
 
 /* Section 2 */
+.benefits{
+    background-color: var(--warm-black);
+    color: var(--just-white);
+    padding: 0.1rem 2rem 3rem 2rem;
+}
+
+.benefits--h1{
+    font-size: 2.4rem;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 2.6rem;
+    text-align: center;
+    margin: 7rem 0 3rem 0;
+}
+
+.benefits--p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: center;
+    color: var(--grey);
+    margin: 0 0 4rem 0;
+}
+
+section[class^="benefits--section"]{
+    background-color: var(--warm-black1);
+    max-width: 40.0rem;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.432);
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+section[class^="benefits--section"] > h3{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+section[class^="benefits--section"] > p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--grey);
+    margin-top: 1rem;
+}
