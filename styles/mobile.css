@@ -211,3 +211,10 @@ section[class^="benefits--section"] > p{
     color: var(--grey);
     margin-top: 1rem;
 }
+
+/* Section 3 */
+
+.plans--bitcoinbaby{
+    width: 100%;
+    max-width: 45.0rem;
+}
