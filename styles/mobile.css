@@ -211,3 +211,48 @@ section[class^="benefits--section"] > p{
     color: var(--grey);
     margin-top: 1rem;
 }
+
+/* Footer */
+
+.footer{
+    background-color: var(--bitcoin-orange);
+    padding: 4rem 7rem;
+    color: var(--just-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer--links{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+}
+
+.footer--links--link{
+    list-style-type: none;
+    margin-top: 0.8rem;
+}
+.footer--links--link a{
+    text-decoration: none;
+}
+.footer--links--link a:visited{
+    color: inherit;
+}
+
+.footer--container--batabit-icon{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer--batatabit-icon{
+    padding: 1rem;
+}
+
+.footer--container--batabit-icon--p{
+    font-size: 0.8rem;
+    color: var(--soft-orange);
+    font-weight: 500;
+}
