@@ -218,3 +218,29 @@ section[class^="benefits--section"] > p{
     width: 100%;
     max-width: 45.0rem;
 }
+
+.plans--bitcoinbaby-figcaption{
+    font-size: 2.4rem;
+    line-height: 2.6;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+}
+
+.plans--h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0rem 0 2rem 0;
+}
+
+.plans--p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    text-align: center;
+    color: var(--grey);
+    margin: 0 2rem;
+}
