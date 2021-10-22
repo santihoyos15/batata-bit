@@ -213,18 +213,27 @@ section[class^="benefits--section"] > p{
 }
 
 /* Section 3 */
-
-.plans--bitcoinbaby{
+.wrapper--bitcoinbaby{
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
     width: 100%;
     max-width: 45.0rem;
 }
 
+.plans--bitcoinbaby{
+    width: 100%;
+}
+
 .plans--bitcoinbaby-figcaption{
+    color: var(--just-white);
     font-size: 2.4rem;
     line-height: 2.6;
     font-weight: 700;
     text-align: center;
-    position: relative;
+    position: absolute;
+    width: 100%;
+    top: 15%;
 }
 
 .plans--h2{
