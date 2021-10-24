@@ -242,7 +242,7 @@ section[class^="benefits--section"] > p{
     line-height: 2.6rem;
     letter-spacing: 0em;
     text-align: center;
-    margin: 0rem 0 2rem 0;
+    margin: 4rem 0 2rem 0;
 }
 
 .plans--p{
@@ -252,4 +252,80 @@ section[class^="benefits--section"] > p{
     text-align: center;
     color: var(--grey);
     margin: 0 2rem;
+}
+
+.plans--card{
+    background-color: var(--just-white);
+    width: 19.0rem;
+    height: 24.7rem;
+    padding: 2.4rem 2.0rem;
+    margin: 4rem auto;
+    text-align: center;
+    color: var(--warm-black);
+    border-radius: 0.8rem;
+    box-shadow: 0px 4px 8px 0px #59491E29;
+    position: relative;
+}
+
+.plans--card--label{
+    width: 10.1rem;
+    height: 3.1rem;
+    padding: 0.8rem;
+    background-color: var(--bitcoin-orange);
+    border-radius: 0.8rem;
+    color: var(--just-white);
+    font-family: var(--font-family2);
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 700;
+    position: absolute;
+    top: -1.6rem;
+    left: calc(25%); 
+}
+
+.plans--card--yearly-pay{
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.plans--card--price{
+    font-family: var(--font-family2);
+    font-size: 5.2rem;
+    font-weight: 700;
+    letter-spacing: -5px;
+    position: relative;
+}.plans--card--price span{
+    font-weight: 500;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 0.7rem;
+    left: 3.5rem;
+}
+
+.plans--card--offering{
+    font-family: var(--font-family2);
+    font-size: 1.2rem;
+    color: var(--grey);
+    padding: 1rem 0;
+}
+
+.plans--card--button{
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-decoration: none;
+    width:15.1rem;
+    height: 4.8rem;
+    border: 0.2rem solid var(--bitcoin-orange);
+    border-radius: 0.4rem;
+    margin: 0.5rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}.plans--card--button:visited{
+    color: inherit;
+}.plans--card--button:hover{
+    
+    background-color: var(--bitcoin-orange);
+    color: var(--just-white);
 }
