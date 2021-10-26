@@ -368,7 +368,6 @@ section[class^="benefits--section"] > p{
     font-size: 1.4rem;
     line-height: 1.8rem;
     font-weight: 500;
-    color: var(--just-white);
 }
 
 .footer--links--link{
@@ -377,6 +376,7 @@ section[class^="benefits--section"] > p{
 }
 .footer--links--link a{
     text-decoration: none;
+    color: var(--just-white);
 }
 .footer--links--link a:visited{
     color: inherit;
