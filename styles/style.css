@@ -368,6 +368,7 @@ section[class^="benefits--section"] > p{
     font-size: 1.4rem;
     line-height: 1.8rem;
     font-weight: 500;
+    color: var(--just-white);
 }
 
 .footer--links--link{
