@@ -1,8 +1,8 @@
 # Batata-bit
 Cryptocurrency website UI design implemented. 
 
-#Technologies
+# Technologies
 - HTML
 - CSS
 
-#Visualization
+# Visualization
