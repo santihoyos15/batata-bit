@@ -262,10 +262,6 @@ section[class^="benefits--section"] > p{
     padding: 0 25%;
 }
 
-.plans--first-card{margin-left: 10px;}
-
-.plans--last-card{margin-right: 50%;}
-
 .plans--card{
     background-color: var(--just-white);
     width: 19.0rem;
