@@ -213,16 +213,14 @@ section[class^="benefits--section"] > p{
 }
 
 /* Section 3 */
-.wrapper--bitcoinbaby{
-    display: inline-block;
-    position: relative;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 45.0rem;
-}
-
 .plans--bitcoinbaby{
+    position: relative;
     width: 100%;
+    height: 50vh;
+    background-image: url(../assets/img/bitcoinbaby2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .plans--bitcoinbaby-figcaption{
