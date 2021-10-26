@@ -50,7 +50,7 @@ html{
 }
 
 .header-h1, .header-h2{
-    max-width: 27.1rem;
+    min-width: 27.1rem;
     text-align: center;
 }
 
@@ -211,6 +211,15 @@ section[class^="benefits--section"] > p{
     color: var(--grey);
     margin-top: 1rem;
 }
+@media (min-width: 1000px){
+    .wrapper--benefits--sections{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
 
 /* Section 3 */
 .plans--bitcoinbaby{
