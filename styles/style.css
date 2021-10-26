@@ -379,7 +379,7 @@ section[class^="benefits--section"] > p{
     color: var(--just-white);
 }
 .footer--links--link a:visited{
-    color: inherit;
+    color: var(--just-white);
 }
 
 .footer--container--batabit-icon{
