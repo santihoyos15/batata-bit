@@ -259,7 +259,14 @@ section[class^="benefits--section"] > p{
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
-    padding: 0 25%;
+    padding: 0 35%;
+}
+
+@media (min-width: 640px){
+    .plans--cards--slider{
+        overflow:initial;
+        justify-content: center;
+    }
 }
 
 .plans--card{
