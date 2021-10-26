@@ -1,4 +1,4 @@
-# batata-bit
+# Batata-bit
 Cryptocurrency website UI design implemented. 
 
 #Technologies
